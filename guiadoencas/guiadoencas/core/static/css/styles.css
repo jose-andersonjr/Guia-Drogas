@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+
+.container {
+    /* Definindo o formato e cores do container */
+    background-color: whitesmoke;
+    min-height: 60vh;
+    padding: 50px;
+    
+}
+
+.drugs-container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+.item {
+    width: 31%;
+    margin: 1% 1%;
+    padding: 15px;
+    flex: 1 1 200px;
+
+}
+ .drug-image{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+ }
+
+ #img-1 {
+    border-radius: 8px;
+    background-image: url('../img/caveira.jpg');
+ }
+ #img-2 {
+    border-radius: 8px;
+    background-image: url('../img/caveira.jpg');
+ }
+ #img-3 {
+    border-radius: 8px;
+    background-image: url('../img/caveira.jpg');
+ }
+ #img-4 {
+    border-radius: 8px;
+    background-image: url('../img/caveira.jpg');
+ }
+ #img-5 {
+    border-radius: 8px;
+    background-image: url('../img/caveira.jpg');
+ }
+ #img-6 {
+    border-radius: 8px;
+    background-image: url('../img/caveira.jpg');
+ }
